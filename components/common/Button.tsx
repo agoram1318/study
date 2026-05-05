@@ -9,8 +9,8 @@ interface ButtonProps {
 }
 
 const styles: Record<Variant, string> = {
-  primary: 'bg-point text-white hover:bg-blue-600',
-  secondary: 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+  primary: 'bg-[#3182F6] text-white hover:bg-[#1b64da]',
+  secondary: 'bg-[#F2F4F6] text-slate-700 hover:bg-[#e8ebee]'
 };
 
 export default function Button({ children, href, variant = 'primary' }: ButtonProps) {
