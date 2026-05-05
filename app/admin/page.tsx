@@ -1,5 +1,5 @@
-import PageHeader from '@/components/common/PageHeader';
 import AdminStatCard from '@/components/admin/AdminStatCard';
+import PageHeader from '@/components/common/PageHeader';
 import { applications, studies } from '@/lib/mock-data';
 
 export default function AdminPage() {

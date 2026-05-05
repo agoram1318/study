@@ -19,8 +19,8 @@ export const studies: Study[] = [
         status: '진행완료',
         materials: [
           { id: 'm1', title: '수업 노트', type: '문서' },
-          { id: 'm2', title: '피그마 링크', type: '링크', url: 'https://figma.com' },
-        ],
+          { id: 'm2', title: '피그마 링크', type: '링크', url: 'https://figma.com' }
+        ]
       },
       {
         id: '2',
@@ -28,9 +28,9 @@ export const studies: Study[] = [
         summary: '카드형 레이아웃과 반응형 규칙을 만들어봅니다.',
         date: '2026-05-10',
         status: '예정',
-        materials: [{ id: 'm3', title: '사전 과제', type: '과제' }],
-      },
-    ],
+        materials: [{ id: 'm3', title: '사전 과제', type: '과제' }]
+      }
+    ]
   },
   {
     id: 'python-mentor',
@@ -48,10 +48,10 @@ export const studies: Study[] = [
         summary: '리스트/딕셔너리 활용 패턴을 정리해요.',
         date: '2026-05-14',
         status: '예정',
-        materials: [{ id: 'm4', title: '예열 문제 세트', type: '과제' }],
-      },
-    ],
-  },
+        materials: [{ id: 'm4', title: '예열 문제 세트', type: '과제' }]
+      }
+    ]
+  }
 ];
 
 export const applications: Application[] = [
@@ -61,7 +61,7 @@ export const applications: Application[] = [
     studyTitle: '실전 React UI 스터디',
     submittedAt: '2026-05-03',
     status: '신규',
-    message: '현업에서 디자인 시스템 구축을 맡고 있어 꼭 참여하고 싶어요!',
+    message: '현업에서 디자인 시스템 구축을 맡고 있어 꼭 참여하고 싶어요!'
   },
   {
     id: 'ap-102',
@@ -69,6 +69,6 @@ export const applications: Application[] = [
     studyTitle: '파이썬 문제해결 멘토링',
     submittedAt: '2026-05-02',
     status: '검토중',
-    message: '코딩테스트 준비 중인데 꾸준히 학습하고 싶습니다.',
-  },
+    message: '코딩테스트 준비 중인데 꾸준히 학습하고 싶습니다.'
+  }
 ];

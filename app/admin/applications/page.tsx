@@ -1,5 +1,5 @@
-import PageHeader from '@/components/common/PageHeader';
 import ApplicationTable from '@/components/admin/ApplicationTable';
+import PageHeader from '@/components/common/PageHeader';
 import { applications } from '@/lib/mock-data';
 
 export default function ApplicationsPage() {

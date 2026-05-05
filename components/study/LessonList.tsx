@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import { Lesson, Study } from '@/types';
 import StatusBadge from '@/components/common/StatusBadge';
+import { Lesson, Study } from '@/types';
 
 export default function LessonList({ lessons, studyId }: { lessons: Lesson[]; studyId: Study['id'] }) {
   return (

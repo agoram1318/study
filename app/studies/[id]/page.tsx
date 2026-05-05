@@ -1,11 +1,12 @@
-import { notFound } from 'next/navigation';
 import PageHeader from '@/components/common/PageHeader';
 import LessonList from '@/components/study/LessonList';
 import { studies } from '@/lib/mock-data';
+import { notFound } from 'next/navigation';
 
 export default async function StudyDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const study = studies.find((s) => s.id === id);
+
   if (!study) return notFound();
 
   return (

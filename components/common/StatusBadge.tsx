@@ -11,7 +11,7 @@ const toneMap: Record<string, string> = {
   신규: 'bg-blue-50 text-blue-700',
   검토중: 'bg-violet-50 text-violet-700',
   승인: 'bg-emerald-50 text-emerald-700',
-  거절: 'bg-rose-50 text-rose-700',
+  거절: 'bg-rose-50 text-rose-700'
 };
 
 export default function StatusBadge({ status }: StatusBadgeProps) {

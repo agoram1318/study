@@ -1,6 +1,6 @@
-import { Study } from '@/types';
-import StatusBadge from '@/components/common/StatusBadge';
 import Button from '@/components/common/Button';
+import StatusBadge from '@/components/common/StatusBadge';
+import { Study } from '@/types';
 
 export default function StudyCard({ study }: { study: Study }) {
   return (

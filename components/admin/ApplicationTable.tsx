@@ -1,5 +1,5 @@
-import { Application } from '@/types';
 import StatusBadge from '@/components/common/StatusBadge';
+import { Application } from '@/types';
 
 export default function ApplicationTable({ items }: { items: Application[] }) {
   return (
